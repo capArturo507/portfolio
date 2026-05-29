@@ -1,5 +1,7 @@
 # Proyectos destacados
 
+Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Contacto](/markdown/contacto.md), [llms.txt](/llms.txt).
+
 ## pattycastillo.com
 
 Sitio para influencer con presencia digital y enlaces a sus redes sociales. Cesar Arturo desarrollo el sitio.

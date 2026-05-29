@@ -1,5 +1,7 @@
 # Servicios profesionales de Cesar Arturo
 
+Enlaces internos: [Inicio](/), [Proyectos](/markdown/proyectos.md), [Contacto](/markdown/contacto.md), [llms.txt](/llms.txt).
+
 ## Desarrollo web
 
 Construccion de sitios web estaticos, rapidos y faciles de desplegar en Cloudflare Pages. Incluye estructura semantica, rendimiento, paginas de servicio, llamadas a la accion y configuracion de medicion.

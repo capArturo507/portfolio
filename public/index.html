@@ -8,7 +8,7 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="author" content="Cesar Arturo">
     <link rel="canonical" href="https://cesararturo.com/">
-    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="/assets/styles.min.css">
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cesar Arturo | Desarrollo web y SEO">
@@ -23,38 +23,71 @@
       gtag('js', new Date());
       gtag('config', 'G-5756WJ96DW');
     </script>
-    <script src="/assets/analytics-events.js" defer></script>
+    <script src="/assets/analytics-events.min.js" defer></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Cesar Arturo",
-        "url": "https://cesararturo.com/",
-        "description": "Servicios profesionales de desarrollo web, SEO tecnico, SEM, Google Analytics, BI y automatizaciones con IA en Panama Ciudad.",
-        "areaServed": ["Panama Ciudad", "Panama", "Latinoamerica", "Estados Unidos"],
-        "email": "mailto:pages@cesararturo.com",
-        "telephone": "+50765612868",
-        "priceRange": "Cotizacion privada",
-        "sameAs": [],
-        "knowsAbout": [
-          "Desarrollo web",
-          "SEO tecnico",
-          "SEM",
-          "Google Analytics",
-          "Business Intelligence",
-          "Automatizaciones con IA",
-          "Cloudflare Pages"
-        ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Servicios de Cesar Arturo",
-          "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desarrollo de sitios web estaticos" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO tecnico y arquitectura de contenido" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Analytics, SEM y medicion de conversiones" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "BI y automatizaciones con IA" } }
-          ]
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://cesararturo.com/#person",
+            "name": "Cesar Arturo",
+            "url": "https://cesararturo.com/",
+            "email": "pages@cesararturo.com",
+            "telephone": "+50765612868",
+            "jobTitle": "Programador y consultor SEO",
+            "knowsAbout": [
+              "Desarrollo web",
+              "SEO tecnico",
+              "SEM",
+              "Google Analytics",
+              "Business Intelligence",
+              "Automatizaciones con IA",
+              "Cloudflare"
+            ]
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://cesararturo.com/#business",
+            "name": "Cesar Arturo",
+            "url": "https://cesararturo.com/",
+            "image": "https://cesararturo.com/assets/og-image.svg",
+            "description": "Servicios profesionales de desarrollo web, SEO tecnico, SEM, Google Analytics, BI y automatizaciones con IA en Panama Ciudad.",
+            "email": "pages@cesararturo.com",
+            "telephone": "+50765612868",
+            "priceRange": "Cotizacion privada",
+            "founder": { "@id": "https://cesararturo.com/#person" },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Panama Ciudad",
+              "addressCountry": "PA"
+            },
+            "areaServed": [
+              { "@type": "City", "name": "Panama Ciudad" },
+              { "@type": "Country", "name": "Panama" },
+              { "@type": "Place", "name": "Latinoamerica" },
+              { "@type": "Country", "name": "Estados Unidos" }
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Servicios de Cesar Arturo",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desarrollo de sitios web estaticos" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO tecnico y arquitectura de contenido" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Analytics, SEM y medicion de conversiones" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "BI y automatizaciones con IA" } }
+              ]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://cesararturo.com/#website",
+            "name": "Cesar Arturo",
+            "url": "https://cesararturo.com/",
+            "publisher": { "@id": "https://cesararturo.com/#business" },
+            "inLanguage": "es"
+          }
+        ]
       }
     </script>
   </head>
@@ -190,6 +223,9 @@
       <div class="footer-links">
         <a href="/llms.txt" data-analytics-event="resource_click" data-analytics-label="llms_txt">llms.txt</a>
         <a href="/markdown/servicios.md" data-analytics-event="resource_click" data-analytics-label="markdown_services">Markdown</a>
+        <a href="/markdown/proyectos.md" data-analytics-event="resource_click" data-analytics-label="markdown_projects">Proyectos</a>
+        <a href="/markdown/contacto.md" data-analytics-event="resource_click" data-analytics-label="markdown_contact">Contacto</a>
+        <a href="/sitemap.xml" data-analytics-event="resource_click" data-analytics-label="sitemap">Sitemap</a>
       </div>
     </footer>
   </body>
