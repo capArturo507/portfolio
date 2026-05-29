@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#020617"/>
+  <rect x="70" y="70" width="1060" height="490" rx="24" fill="#0f172a" stroke="#164e63" stroke-width="2"/>
+  <text x="115" y="175" fill="#67e8f9" font-family="Arial, sans-serif" font-size="34" font-weight="700">Cesar Arturo</text>
+  <text x="115" y="285" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="800">Desarrollo web</text>
+  <text x="115" y="370" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="800">y SEO en Panama.</text>
+  <text x="115" y="455" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="32" font-weight="700">Sitios rapidos, visibles y medibles.</text>
+  <rect x="115" y="500" width="280" height="18" rx="9" fill="#06b6d4"/>
+  <rect x="420" y="500" width="180" height="18" rx="9" fill="#0891b2"/>
+</svg>
