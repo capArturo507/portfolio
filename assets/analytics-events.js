@@ -1,0 +1,39 @@
+(function () {
+  function sendEvent(name, label, url) {
+    if (typeof window.gtag !== "function") {
+      return;
+    }
+
+    window.gtag("event", name, {
+      event_category: "engagement",
+      event_label: label || url || "unknown",
+      link_url: url || "",
+      transport_type: "beacon"
+    });
+  }
+
+  document.addEventListener("click", function (event) {
+    var link = event.target.closest("a");
+    if (!link) {
+      return;
+    }
+
+    var eventName = link.dataset.analyticsEvent;
+    var label = link.dataset.analyticsLabel;
+    var href = link.getAttribute("href") || "";
+
+    if (!eventName) {
+      if (href.indexOf("mailto:") === 0) {
+        eventName = "lead_email";
+      } else if (href.indexOf("https://wa.me/") === 0) {
+        eventName = "lead_whatsapp";
+      } else if (href.indexOf("#") === 0) {
+        eventName = "nav_click";
+      }
+    }
+
+    if (eventName) {
+      sendEvent(eventName, label, href);
+    }
+  });
+})();
