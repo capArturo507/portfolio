@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cesar Arturo">
+  <rect width="64" height="64" rx="14" fill="#020617"/>
+  <rect x="6" y="6" width="52" height="52" rx="11" fill="#06b6d4" opacity=".22"/>
+  <text x="32" y="39" fill="#ecfeff" font-family="Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">CA</text>
+</svg>
