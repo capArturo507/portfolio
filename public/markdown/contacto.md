@@ -1,6 +1,6 @@
 # Contacto
 
-Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Proyectos](/markdown/proyectos.md), [llms.txt](/llms.txt).
+Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Proyectos](/markdown/proyectos.md), [Guia SEO y LLM](/posicionamiento-seo-llm.html), [llms.txt](/llms.txt).
 
 Para consultas comerciales, escribir a uno de estos correos o por WhatsApp:
 

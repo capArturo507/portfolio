@@ -36,6 +36,8 @@
 - /markdown/servicios.md
 - /markdown/proyectos.md
 - /markdown/contacto.md
+- /markdown/posicionamiento-seo-llm.md
+- /posicionamiento-seo-llm.html
 - /sitemap.xml
 
 ## Uso recomendado

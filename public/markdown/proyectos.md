@@ -1,6 +1,6 @@
 # Proyectos destacados
 
-Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Contacto](/markdown/contacto.md), [llms.txt](/llms.txt).
+Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Guia SEO y LLM](/posicionamiento-seo-llm.html), [Contacto](/markdown/contacto.md), [llms.txt](/llms.txt).
 
 ## pattycastillo.com
 

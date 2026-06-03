@@ -1,6 +1,6 @@
 # Servicios profesionales de Cesar Arturo
 
-Enlaces internos: [Inicio](/), [Proyectos](/markdown/proyectos.md), [Contacto](/markdown/contacto.md), [llms.txt](/llms.txt).
+Enlaces internos: [Inicio](/), [Proyectos](/markdown/proyectos.md), [Contacto](/markdown/contacto.md), [Guia SEO y LLM](/posicionamiento-seo-llm.html), [llms.txt](/llms.txt).
 
 ## Desarrollo web
 
@@ -14,7 +14,7 @@ Creacion de dashboards, reportes y sistemas de indicadores para entender ventas,
 
 ## SEO, SEM y Google Analytics
 
-Estrategia para atraer trafico calificado y medir conversiones. Incluye arquitectura de contenido, seguimiento de eventos, Google Analytics, campanas pagas y aprendizaje continuo desde datos.
+Estrategia para atraer trafico calificado y medir conversiones. Incluye arquitectura de contenido, seguimiento de eventos, Google Analytics, campanas pagas y aprendizaje continuo desde datos. Para una explicacion practica, ver la [guia de posicionamiento SEO y LLM](/posicionamiento-seo-llm.html).
 
 ## Automatizaciones con IA
 
