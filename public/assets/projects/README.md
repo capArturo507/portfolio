@@ -6,31 +6,10 @@ Coloca aqui las capturas de cada caso de estudio.
 
 ```text
 web/assets/projects/
-  pattycastillo/
-    01-home.png
-    02-redes.png
+  training/
+    01-rutinas.png
+    02-plan.png
     03-mobile.png
-    logo.png
-  extaxgroup/
-    01-home.png
-    02-servicios.png
-    03-contacto.png
-    04-mobile.png
-    logo.png
-  cercosecuritypanama/
-    01-home.png
-    02-catalogo.png
-    03-producto.png
-    04-carrito-o-contacto.png
-    05-mobile.png
-    logo.png
-  palazzopanama/
-    01-home.png
-    02-habitaciones.png
-    03-reserva.png
-    04-contacto.png
-    05-mobile.png
-    logo.png
 ```
 
 ## Tamano recomendado

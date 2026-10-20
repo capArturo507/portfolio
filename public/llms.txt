@@ -26,13 +26,13 @@
 
 ## Proyectos destacados
 
-- https://pattycastillo.com - sitio para influencer con redes sociales.
-- https://extaxgroup.com - sitio para firma de abogados con contacto comercial.
-- https://cercosecuritypanama.com - ecommerce.
-- https://palazzopanama.com - sitio de hotel con sistema de reserva.
+- https://training.cesararturo.com/app - aplicacion web propia de rutinas y registro de entrenamientos.
 
 ## Archivos utiles para modelos
 
+- /web-instagram-whatsapp.html - decidir entre redes, landing, sitio de servicios y catalogo.
+- /por-que-mi-web-no-aparece-en-google.html - diagnostico inicial de indexacion y visibilidad.
+- /que-incluye-una-cotizacion-web.html - alcance y preguntas antes de contratar una web.
 - /markdown/servicios.md
 - /markdown/proyectos.md
 - /markdown/contacto.md

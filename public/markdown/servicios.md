@@ -1,10 +1,10 @@
 # Servicios profesionales de Cesar Arturo
 
-Enlaces internos: [Inicio](/), [Proyectos](/markdown/proyectos.md), [Contacto](/markdown/contacto.md), [Guia SEO y LLM](/posicionamiento-seo-llm.html), [llms.txt](/llms.txt).
+Enlaces internos: [Inicio](/), [Proyectos](/markdown/proyectos.md), [Contacto](/markdown/contacto.md), [Elegir entre web y redes](/web-instagram-whatsapp.html), [Cotizacion web](/que-incluye-una-cotizacion-web.html), [Diagnostico SEO](/por-que-mi-web-no-aparece-en-google.html), [Guia SEO y LLM](/posicionamiento-seo-llm.html), [llms.txt](/llms.txt).
 
 ## Desarrollo web
 
-Construccion de sitios web estaticos, rapidos y faciles de desplegar en Cloudflare Pages. Incluye estructura semantica, rendimiento, paginas de servicio, llamadas a la accion y configuracion de medicion.
+Desarrollo de landing pages y sitios de servicios con estructura semantica, contenido claro y contacto visible. El numero de paginas, las integraciones, la medicion y la entrega se definen en la cotizacion privada segun el alcance.
 
 Este es el servicio prioritario de Cesar Arturo para clientes en Panama Ciudad y mercados remotos.
 
@@ -14,7 +14,7 @@ Creacion de dashboards, reportes y sistemas de indicadores para entender ventas,
 
 ## SEO, SEM y Google Analytics
 
-Estrategia para atraer trafico calificado y medir conversiones. Incluye arquitectura de contenido, seguimiento de eventos, Google Analytics, campanas pagas y aprendizaje continuo desde datos. Para una explicacion practica, ver la [guia de posicionamiento SEO y LLM](/posicionamiento-seo-llm.html).
+Revision de indexabilidad, arquitectura y contenido segun las busquedas relevantes para el negocio. La medicion y las campanas pagas pueden evaluarse por separado; ningun trabajo garantiza una posicion concreta. Para empezar, ver [por que una web no aparece en Google](/por-que-mi-web-no-aparece-en-google.html); para una explicacion tecnica, la [guia de posicionamiento SEO y LLM](/posicionamiento-seo-llm.html).
 
 ## Automatizaciones con IA
 

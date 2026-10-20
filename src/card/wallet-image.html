@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Cesar Arturo · Tarjeta con QR</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;width:900px;height:1600px;background:#16191a;color:#f5f7f7;font-family:Arial,sans-serif;position:relative;text-align:center}
+.portrait{position:absolute;inset:0 0 auto;height:760px;overflow:hidden}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.portrait:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#16191a 100%)}
+main{position:relative;padding:610px 64px 0}
+h1{margin:0;font-size:64px;line-height:1.1;letter-spacing:0}
+h1 span{color:#67e8f9}
+.specialty{color:#67e8f9;font-size:26px;margin:16px 0 32px}
+.contact{display:flex;flex-direction:column;align-items:center;gap:32px}
+.qr{width:444px;height:444px;flex-shrink:0;image-rendering:pixelated}
+.details{font-size:30px;line-height:1.5}
+.details p{margin:0 0 18px}
+.details small{font-size:20px;color:#aeb9bc;display:block}
+.location{color:#c2cccf;font-size:23px;margin:8px 0 0}
+.site{position:absolute;bottom:42px;left:0;right:0;font-size:26px;color:#67e8f9}
+</style>
+</head>
+<body>
+<div class="portrait"><img src="../../public/assets/cesar-portrait.v1.png" alt="Retrato de Cesar Arturo"></div>
+<main>
+<h1>Cesar Arturo<span>.</span></h1>
+<p class="specialty">Desarrollo web &amp; SEO</p>
+<div class="contact">
+<img class="qr" src="../../public/assets/card-qr.v1.png" width="444" height="444" alt="QR de https://cesararturo.com/card">
+<div class="details"><p><small>WhatsApp</small>+507 6561-2868</p><p><small>Correo</small>pages@cesararturo.com</p></div>
+</div>
+<p class="location">Ciudad de Panamá</p>
+</main>
+<div class="site">cesararturo.com/card</div>
+</body>
+</html>

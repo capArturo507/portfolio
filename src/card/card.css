@@ -1,0 +1,59 @@
+:root{color-scheme:dark;--bg:#16191a;--text:#f5f7f7;--muted:#aeb9bc;--line:#353e41;--cyan:#67e8f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.5;letter-spacing:0}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit}
+button,summary{-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+svg{width:20px;height:20px;flex-shrink:0;stroke-width:1.7}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--cyan);outline-offset:5px}
+.card-page{max-width:480px;margin:0 auto;padding:0 24px 20px}
+.identity{position:relative;isolation:isolate;padding-top:20px}
+.portrait-background{position:absolute;z-index:-1;top:0;left:-24px;right:-24px;height:430px;overflow:hidden}
+.portrait-background img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.portrait-background:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,25,26,.64) 0%,transparent 22%,transparent 53%,rgba(22,25,26,.87) 81%,#16191a 100%)}
+.identity-copy{padding-top:228px;position:relative}
+.home-link{display:flex;align-items:center;gap:12px;color:var(--text);font-size:13px;min-height:48px}
+.home-link>svg{margin-left:auto;width:18px}
+.brand-mark{border-radius:8px}
+.specialty{margin:0 0 9px;color:var(--cyan);font-size:13px;font-weight:600}
+h1{font-size:40px;font-weight:650;line-height:1.15;margin:0;letter-spacing:0}
+.name-dot{color:var(--cyan)}
+.location{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:13px;margin:14px 0 0}
+.location svg{width:15px;height:15px}
+.intro{color:#d2dadc;font-size:16px;max-width:37ch;margin:24px 0 28px}
+.contact-options{display:grid;gap:12px}
+.action{min-height:56px;display:flex;align-items:center;gap:12px;padding:14px 18px;border:1px solid var(--line);border-radius:6px;font-weight:600;font-size:15px;transition:background-color .15s}
+.action>span{flex:1}
+.action>svg:last-child{width:18px}
+.primary{background:var(--cyan);border-color:var(--cyan);color:#12272c}
+.primary:hover{background:#a5f3fc}
+.secondary{background:#22292b}
+.secondary:hover,.contact-row:hover{background:#2b3436}
+.contact-row{display:flex;gap:14px;align-items:center;padding:16px 5px;border-bottom:1px solid var(--line);min-height:80px}
+.contact-row>svg:first-child{color:var(--muted)}
+.contact-row>span{flex:1;min-width:0}
+.contact-row strong{display:block;font-size:14px;font-weight:550}
+.contact-row small{display:block;margin-top:3px;color:var(--muted);font-size:12px;overflow-wrap:anywhere}
+.contact-row>svg:last-child{width:17px}
+.card-footer{margin-top:18px}
+.utility-actions{display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px 24px}
+.utility{border:0;padding:10px 0;min-height:44px;background:transparent;color:var(--muted);display:flex;align-items:center;gap:8px;cursor:pointer;font-size:13px}
+.utility:hover{color:var(--text)}
+summary{list-style:none}
+summary::-webkit-details-marker{display:none}
+details[open]{flex-basis:100%;order:2}
+.qr-content{padding:18px 0 4px;text-align:center}
+.qr-content img{display:block;margin:auto;max-width:100%;height:auto;background:#fff}
+.qr-content p{font-size:13px;color:var(--muted)}
+.qr-download{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;color:var(--cyan);font-size:14px}
+.wallet-image{display:flex}
+.status{font-size:13px;color:var(--cyan);margin:0;min-height:20px}
+#copy-fallback{margin:12px 0}
+#copy-fallback label{display:block;font-size:13px;color:var(--muted)}
+#card-url{width:100%;padding:12px;margin-top:6px;background:#22292b;border:1px solid var(--line);border-radius:4px;color:var(--text);font-size:14px}
+.signature{margin:22px 0 0;color:var(--muted);font-size:11px;text-align:center}
+.signature span{padding:0 8px;color:#65767b}
+@media(min-width:768px){.card-page{padding-bottom:40px}.identity-copy{padding-top:270px}.portrait-background{height:470px}}
+@media(max-width:359px){.card-page{padding:0 18px 18px}.portrait-background{left:-18px;right:-18px;height:370px}.identity-copy{padding-top:192px}h1{font-size:34px}.action{font-size:14px;padding:14px}.location{font-size:12px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}

@@ -2,18 +2,6 @@
 
 Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Guia SEO y LLM](/posicionamiento-seo-llm.html), [Contacto](/markdown/contacto.md), [llms.txt](/llms.txt).
 
-## pattycastillo.com
+## Training
 
-Sitio para influencer con presencia digital y enlaces a sus redes sociales. Cesar Arturo desarrollo el sitio.
-
-## extaxgroup.com
-
-Sitio para firma de abogados con enfoque en confianza, informacion de servicios y contacto comercial. Cesar Arturo desarrollo el sitio.
-
-## cercosecuritypanama.com
-
-Ecommerce para productos y servicios de seguridad. Cesar Arturo desarrollo el sitio.
-
-## palazzopanama.com
-
-Sitio para hotel con sistema de reserva. Cesar Arturo desarrollo el sitio.
+Aplicacion web propia para explorar rutinas, planificar entrenamientos y registrar sesiones. Se puede abrir en [training.cesararturo.com/app](https://training.cesararturo.com/app) y explorar el catalogo sin cuenta.
