@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Training: caso de estudio de una app de entrenamiento | Cesar Arturo</title>
+    <meta name="description" content="Cómo construí Training para organizar rutinas, seguir sesiones y consultar el progreso entre dispositivos, con una cuenta y copia online opcionales.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Cesar Arturo">
+    <link rel="canonical" href="https://cesararturo.com/proyecto-training.html">
+    <link rel="stylesheet" href="/assets/styles.editorial.v5.min.css">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Training: del plan al entrenamiento registrado">
+    <meta property="og:description" content="Decisiones de producto y funciones que puedes comprobar en la aplicación.">
+    <meta property="og:url" content="https://cesararturo.com/proyecto-training.html">
+    <meta property="og:image" content="https://cesararturo.com/assets/projects/training-app.v1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5756WJ96DW"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-5756WJ96DW');</script>
+    <script src="/assets/analytics-events.min.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header"><a class="brand" href="/" aria-label="Inicio"><span class="brand-mark">CA</span><span>Cesar Arturo</span></a><nav class="nav" aria-label="Navegación principal"><a href="/#proyectos">Proyectos</a><a href="/#decidir">Guías</a><a href="/#servicios">Servicios</a><a href="/#contacto">Contacto</a></nav></header>
+    <main class="article-page">
+      <div class="article-hero"><p class="eyebrow">Proyecto propio · Aplicación web</p><h1>Training: del plan al entrenamiento registrado</h1><p class="lead">Una rutina escrita sirve de poco si cuesta seguirla durante la sesión o recuperar lo que hiciste después. Construí Training para conectar esas dos tareas y hacer visible el progreso.</p></div>
+      <article class="article-content decision-article">
+        <figure><img src="/assets/projects/training-app.v1.jpg" alt="Catálogo de rutinas de Training con filtros y controles para agregar una rutina" width="1440" height="900" loading="lazy" decoding="async"><figcaption>Vista del catálogo de rutinas de la aplicación web.</figcaption></figure>
+        <div class="answer-box"><h2>Qué puedes hacer</h2><p>Explorar rutinas iniciales, crear o importar otras, organizarlas en planes, avanzar serie por serie durante un entrenamiento y consultar el historial. El catálogo se puede explorar sin cuenta. Las funciones de cuenta y copia online requieren que la persona las active.</p></div>
+        <h2>El problema que quise resolver</h2>
+        <p>Una planificación suele separar la lista de ejercicios del registro de resultados. Al entrenar, esa distancia importa: hay que saber qué ejercicio sigue, cuántas series faltan y qué ocurrió en la sesión anterior. Después, los resultados deben poder consultarse sin reconstruirlos de memoria.</p>
+        <p>Por eso Training reúne la preparación, la ejecución y la revisión en una misma aplicación. Las rutinas y los planes son objetos editables; el historial registra lo realizado, incluidas las respuestas posteriores a la sesión.</p>
+        <h2>Decisiones de diseño</h2>
+        <ul>
+          <li><strong>Empezar sin cuenta.</strong> La aplicación permite probar sus funciones en el navegador. Crear una cuenta es una decisión posterior, no un requisito para explorar el catálogo.</li>
+          <li><strong>Separar cuenta y copia online.</strong> Iniciar sesión no envía automáticamente los entrenamientos. La persona autoriza la copia por separado antes de usarla para consultar sus datos en otros dispositivos.</li>
+          <li><strong>Registrar lo que pasó.</strong> El entrenamiento avanza por ejercicios y series; el resultado y el cuestionario posterior forman parte del historial. Así se puede comparar la planificación con la ejecución.</li>
+          <li><strong>Dejar salir los datos.</strong> Las rutinas pueden exportarse como JSON y el historial como CSV. El formato JSON también sirve para crear o importar rutinas.</li>
+        </ul>
+        <h2>Cómo comprobarlo</h2>
+        <ol>
+          <li><a href="https://training.cesararturo.com/app" rel="noopener" target="_blank">Abre Training</a> y revisa las rutinas iniciales. No necesitas una cuenta para explorar el catálogo.</li>
+          <li>Abre una rutina para ver sus ejercicios, series y descansos. Si decides entrenar, la aplicación te guía por esos pasos y te pide registrar el resultado al finalizar.</li>
+          <li>En la sección de actividad puedes consultar sesiones y progreso. Si decides usar una cuenta en distintos dispositivos, revisa la opción de copia online en <strong>Tú</strong> antes de activarla.</li>
+        </ol>
+        <p>Este es un producto en uso y desarrollo. La captura muestra el catálogo, no demuestra por sí sola la sincronización ni un resultado físico. Esas funciones se comprueban dentro de la aplicación con una cuenta y datos de prueba.</p>
+        <div class="internal-links"><strong>Más información</strong><a href="https://training.cesararturo.com/" rel="noopener" target="_blank">Qué ofrece Training</a><a href="https://training.cesararturo.com/docs/mcp" rel="noopener" target="_blank">Documentación de conexiones</a><a href="/">Otros servicios de Cesar Arturo</a></div>
+      </article>
+      <section class="contact"><div><p class="eyebrow">Desarrollo de productos web</p><h2>¿Tienes un proceso que necesita una aplicación?</h2><p>Cuéntame qué hacen hoy las personas, dónde se pierde información y qué necesitan consultar después. Con eso podemos definir un alcance antes de hablar de pantallas.</p></div><div class="contact-actions"><a class="button primary" href="https://wa.me/50765612868?text=Hola%20Cesar%2C%20quiero%20conversar%20sobre%20una%20aplicacion%20web" data-analytics-event="lead_whatsapp" data-analytics-label="training_case_whatsapp">Escribir por WhatsApp</a><a class="button secondary" href="mailto:pages@cesararturo.com?subject=Consulta%20sobre%20aplicacion%20web" data-analytics-event="lead_email" data-analytics-label="training_case_email">Enviar correo</a></div></section>
+    </main>
+    <footer class="footer"><span>&copy; 2026 Cesar Arturo · Panamá Ciudad</span><div class="footer-links"><a href="/">Inicio</a><a href="/privacidad.html">Privacidad</a><a href="/sitemap.xml">Sitemap</a></div></footer>
+  </body>
+</html>

@@ -27,6 +27,7 @@
 ## Proyectos destacados
 
 - https://training.cesararturo.com/app - aplicacion web propia de rutinas y registro de entrenamientos.
+- https://cesararturo.com/proyecto-training.html - caso de estudio con las decisiones de producto y pasos para explorar Training.
 
 ## Archivos utiles para modelos
 
@@ -38,6 +39,7 @@
 - /markdown/contacto.md
 - /markdown/posicionamiento-seo-llm.md
 - /posicionamiento-seo-llm.html
+- /privacidad.html
 - /sitemap.xml
 
 ## Uso recomendado

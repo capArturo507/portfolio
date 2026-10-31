@@ -4,4 +4,4 @@ Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Guia SEO y 
 
 ## Training
 
-Aplicacion web propia para explorar rutinas, planificar entrenamientos y registrar sesiones. Se puede abrir en [training.cesararturo.com/app](https://training.cesararturo.com/app) y explorar el catalogo sin cuenta.
+Aplicacion web propia para explorar rutinas, planificar entrenamientos y registrar sesiones. Se puede abrir en [training.cesararturo.com/app](https://training.cesararturo.com/app) y explorar el catalogo sin cuenta. El [caso de estudio](/proyecto-training.html) explica las decisiones de producto y como comprobar sus funciones.

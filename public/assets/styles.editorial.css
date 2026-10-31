@@ -369,6 +369,24 @@ a:focus-visible,
   color: var(--muted-strong);
 }
 
+.article-content figure {
+  margin: 0 0 32px;
+}
+
+.article-content figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.article-content figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .article-content h2,
 .article-content h3,
 .article-toc strong,
