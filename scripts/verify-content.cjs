@@ -11,6 +11,9 @@ const pages = [
   'por-que-mi-web-no-aparece-en-google.html',
   'que-incluye-una-cotizacion-web.html',
   'comparar-propuestas-seo.html',
+  'sobre-mi.html',
+  'caso-presencia-digital.html',
+  'caso-catalogo-consultivo.html',
   'posicionamiento-seo-llm.html'
 ];
 const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg' };

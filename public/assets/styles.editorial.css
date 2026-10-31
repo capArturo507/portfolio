@@ -251,6 +251,18 @@ a:focus-visible,
   text-transform: uppercase;
 }
 
+.project-cases {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.project-cases article {
+  padding: 26px 0;
+  border-top: 1px solid rgba(214, 239, 232, 0.25);
+}
+
 .decision-section {
   background: #fff;
   border: 0;
@@ -458,6 +470,11 @@ a:focus-visible,
 }
 
 @media (max-width: 680px) {
+  .project-cases {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
   .site-header {
     min-height: 0;
     gap: 12px;

@@ -5,3 +5,8 @@ Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Guia SEO y 
 ## Training
 
 Aplicacion web propia para explorar rutinas, planificar entrenamientos y registrar sesiones. Se puede abrir en [training.cesararturo.com/app](https://training.cesararturo.com/app) y explorar el catalogo sin cuenta. El [caso de estudio](/proyecto-training.html) explica las decisiones de producto y como comprobar sus funciones.
+
+## Casos de clientes anonimos
+
+- [Presencia digital y contacto de marca](/caso-presencia-digital.html): se reconstruyó una tarjeta web y se corrigió una ruta de correo que no coincidía con el texto visible.
+- [Catalogo para venta consultiva](/caso-catalogo-consultivo.html): se organizó la búsqueda de productos especializados y la consulta antes de comprar.

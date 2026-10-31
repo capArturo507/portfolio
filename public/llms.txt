@@ -40,6 +40,9 @@
 - /markdown/posicionamiento-seo-llm.md
 - /posicionamiento-seo-llm.html
 - /comparar-propuestas-seo.html - plantillas para solicitar y comparar servicios SEO.
+- /sobre-mi.html - experiencia, servicios y forma de trabajo de Cesar Arturo.
+- /caso-presencia-digital.html - caso anónimo de una página de presentación y contacto de marca.
+- /caso-catalogo-consultivo.html - caso anónimo de un catálogo para productos especializados.
 - /privacidad.html
 - /sitemap.xml
 
