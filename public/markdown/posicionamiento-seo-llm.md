@@ -4,15 +4,25 @@ Enlaces internos: [Inicio](/), [Servicios](/markdown/servicios.md), [Proyectos](
 
 ## SEO Title
 
-Posicionamiento SEO y LLM: como aparecer en Google, ChatGPT y AI Search
+SEO y respuestas de IA: qué revisar y un ejemplo real
 
 ## Meta Description
 
-Aprende como combinar SEO tecnico, contenido experto, schema y optimizacion para LLMs para ganar visibilidad en Google, ChatGPT, Copilot y respuestas generativas.
+Qué revisar para que una página sea accesible y útil en buscadores y respuestas de IA. Incluye un ejemplo real de este sitio y sus límites de medición.
 
 ## Respuesta rapida
 
-Para posicionar una pagina en Google y aumentar sus posibilidades de aparecer en respuestas generativas, necesitas resolver una intencion concreta, hacer que la pagina sea indexable, explicar el tema con estructura clara, enlazarla internamente desde paginas relevantes, respaldar afirmaciones importantes y usar schema coherente con el contenido visible.
+Comprueba que la página abre, puede indexarse y responde a una necesidad concreta con información propia. Enlázala desde páginas relevantes y mide lo que ocurre después de publicarla. Para las funciones de IA de Google no hacen falta archivos especiales ni un tipo de schema nuevo: [Google recomienda empezar por las bases de SEO](https://developers.google.com/search/docs/appearance/ai-features?hl=es-419). Google Search tampoco usa `llms.txt` para mejorar la visibilidad: [guía oficial](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide).
+
+## Ejemplo real: esta misma guía
+
+El objetivo es responder a quien busca posicionamiento SEO y LLM sin prometer una cita en una respuesta de IA. Antes, el texto enumeraba schema y `llms.txt` como si fueran pasos necesarios. Revisé esa afirmación contra la documentación de Google y cambié la respuesta inicial.
+
+1. La dirección `/posicionamiento-seo-llm.html` redirige a `/posicionamiento-seo-llm`. La etiqueta canónica ahora apunta a esta dirección final.
+2. Añadí el problema, la corrección y los límites de la medición para que un lector pueda repetir la comprobación.
+3. Después de publicar, revisaré la URL canónica elegida, consultas, impresiones y clics en Search Console. Eso no demuestra por sí solo que una IA haya citado la página ni que el cambio cause una mejora.
+
+El ejemplo documenta un método; todavía no presenta un resultado de posicionamiento posterior al cambio.
 
 Enlaces clave de este sitio:
 
@@ -30,14 +40,14 @@ Enlaces clave de este sitio:
 3. Ordena la informacion con H2, H3, listas, ejemplos y criterios de decision.
 4. Conecta la pagina con enlaces internos hacia servicios, proyectos, contacto y recursos relacionados.
 5. Hazla indexable: status 200, canonical, sitemap, robots.txt, mobile y contenido visible.
-6. Agrega schema coherente: Article, FAQPage, BreadcrumbList, Person, Organization o Service.
+6. Usa datos estructurados cuando correspondan y describan el contenido visible. No son un requisito especial para las funciones de IA de Google.
 7. Mide resultados: impresiones, clics, queries, conversiones, menciones y trafico referido desde experiencias AI.
 
 ## Que cambio con los LLMs
 
 Los buscadores ya no muestran solo listas de enlaces. Muchas experiencias sintetizan respuestas y necesitan contenido que pueda ser descubierto, interpretado, comparado, resumido, citado y verificado.
 
-Esto no elimina el SEO tradicional. Lo vuelve mas exigente.
+Google indica que sus funciones de IA aplican las mismas bases de SEO y no requieren optimizaciones especiales.
 
 ## Marco CITA
 
@@ -58,7 +68,7 @@ Enlaces recomendados para esta pagina:
 - Desde servicios hacia esta guia.
 - Desde proyectos hacia recursos de SEO tecnico cuando aplique.
 - Desde contacto hacia auditoria o estrategia SEO.
-- Desde llms.txt hacia la pagina HTML y su version Markdown.
+- Desde recursos alternativos hacia la página HTML cuando el enlace sea útil para quien los consulta.
 
 Esta pagina debe enlazar a:
 
@@ -88,7 +98,7 @@ La optimizacion para LLMs no reemplaza el SEO tecnico. La base sigue siendo:
 
 ## Schema recomendado
 
-Para una estrategia SEO y LLM se pueden usar tipos como:
+Los datos estructurados pueden ayudar con resultados enriquecidos admitidos. No existe un schema especial requerido para las funciones de IA de Google. Según el contenido visible, pueden corresponder tipos como:
 
 - Article o BlogPosting;
 - Person;
@@ -111,14 +121,14 @@ Para una pagina de servicio sobre SEO y LLM, una estructura util seria:
 2. Senales tecnicas que se revisan en una auditoria.
 3. Errores que impiden aparecer o ser citado.
 4. Proceso de implementacion paso a paso.
-5. Entregables: mapa de contenido, schema, sitemap, llms.txt, medicion y mejoras.
+5. Entregables según el diagnóstico: mapa de contenido, correcciones de enlaces y URLs, medición y páginas revisadas.
 6. CTA hacia una auditoria, con enlace a contacto y correo SEO.
 
 ## Medicion
 
 Para SEO tradicional se revisan impresiones, clics, CTR, posiciones, paginas indexadas, queries, conversiones, enlaces y rendimiento tecnico.
 
-Para AI Search se agregan menciones de marca, trafico referido desde asistentes, logs de crawlers cuando sea posible, visibilidad en Bing o Copilot y presencia de entidades en respuestas.
+Las visitas referidas desde asistentes se separan cuando la medición lo permite. Una aparición manual en una respuesta puede documentarse con fecha y consulta, pero no equivale a una posición estable.
 
 ## Checklist
 
@@ -133,13 +143,13 @@ Para AI Search se agregan menciones de marca, trafico referido desde asistentes,
 - La pagina es indexable.
 - El canonical es correcto.
 - Hay enlaces internos relevantes.
-- Hay schema valido y coherente.
+- Los datos estructurados, si existen, coinciden con el contenido visible.
 - Las FAQs son visibles.
 - La pagina carga bien en movil.
 
 ## Que haria Cesar Arturo en una auditoria real
 
-Primero revisaria las paginas que ya pueden captar demanda: home, servicios, proyectos y contacto. Luego definiria que contenido necesita pagina propia, que contenido debe vivir como soporte en Markdown y que enlaces internos faltan para conectar la oferta con la intencion de busqueda.
+Primero revisaría inicio, servicios, proyectos y contacto. Después decidiría qué pregunta necesita una página propia y qué enlaces ayudan a pasar de la respuesta a una decisión. Un archivo Markdown adicional solo tendría sentido si existe un uso concreto para él.
 
 Este trabajo se conecta con:
 
@@ -150,7 +160,7 @@ Este trabajo se conecta con:
 
 ## CTA
 
-Si quieres construir una estrategia de posicionamiento que funcione tanto en Google como en respuestas generativas, Cesar Arturo puede ayudarte a auditar tu contenido, identificar oportunidades y crear una arquitectura SEO preparada para LLMs.
+Si necesitas revisar tu sitio, podemos empezar por una página concreta, su acceso, su contenido y los resultados que ya puedes medir.
 
 Contacto SEO: seo@cesararturo.com
 

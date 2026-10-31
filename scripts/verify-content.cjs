@@ -10,6 +10,7 @@ const pages = [
   'web-instagram-whatsapp.html',
   'por-que-mi-web-no-aparece-en-google.html',
   'que-incluye-una-cotizacion-web.html',
+  'comparar-propuestas-seo.html',
   'posicionamiento-seo-llm.html'
 ];
 const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg' };
@@ -86,7 +87,9 @@ const server = http.createServer((req, res) => {
     const sitemap = fs.readFileSync(path.join(publicDir, 'sitemap.xml'), 'utf8');
     const llms = fs.readFileSync(path.join(publicDir, 'llms.txt'), 'utf8');
     for (const name of pages.slice(1)) {
-      assert.ok(sitemap.includes(`https://cesararturo.com/${name}`), `${name}: missing from sitemap`);
+      const html = fs.readFileSync(path.join(publicDir, name), 'utf8');
+      const canonical = html.match(/<link rel="canonical" href="([^"]+)">/)?.[1];
+      assert.ok(canonical && sitemap.includes(canonical), `${name}: missing canonical URL from sitemap`);
       assert.ok(llms.includes(`/${name}`), `${name}: missing from llms.txt`);
     }
     console.log('PASS internal links, metadata, sitemap, llms.txt');

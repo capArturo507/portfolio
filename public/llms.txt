@@ -39,6 +39,7 @@
 - /markdown/contacto.md
 - /markdown/posicionamiento-seo-llm.md
 - /posicionamiento-seo-llm.html
+- /comparar-propuestas-seo.html - plantillas para solicitar y comparar servicios SEO.
 - /privacidad.html
 - /sitemap.xml
 
